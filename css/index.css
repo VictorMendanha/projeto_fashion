@@ -1,4 +1,124 @@
 body{
     width: 80%;
     margin: auto;
+    font-family: tahoma, arial, sans-serif;
+}
+
+header{
+    background-image: url(../imagens/topo.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+#faixaPreta{
+    background-color: black;
+    height: 45px;
+    width: 100%;
+}
+header nav{
+    padding: 0 50px 0 150px;
+}
+
+#apresentacao img{
+    float: left;
+}
+
+#sobreSite li{
+    
+    font-size: 15px;
+    text-transform: uppercase;
+    text-indent: 20px;
+    display: inline-block;
+    float: right;
+    padding-top: 20px;
+    list-style: none;
+}
+
+a{   
+    color: #425564;
+    text-decoration: none;
+    transition: color 0.3s linear;
+}
+
+a:hover{
+    color: white;
+}
+
+#primeiroTexto{
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 90px auto;
+    width: 80%;
+}
+
+#primeiroTexto h1{
+    text-transform: uppercase;
+}
+
+#imagens{
+    text-align: center;
+}
+.cards{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.roupas{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sobreRoupas{
+    font-style: italic;
+}
+
+#backSegundoTexto{
+    background-image: url(../imagens/bg_detalhe.png);
+    background-color: #003d52;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    margin: 70px 0;
+}
+
+#segundoTexto{
+    padding: 100px;   
+}
+
+#segundoTexto h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+#segundoTexto p{
+    color: white;
+    font-size: 18px;
+    width: 50%;
+}
+
+#contato{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: navy;
+}
+
+#localizacao iframe{
+    margin: auto;
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 15px;
 }
